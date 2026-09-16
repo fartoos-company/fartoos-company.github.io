@@ -1,15 +1,346 @@
+```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fartoos</title>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Fartoos - راهکارهای هوشمند کنترل تردد و اتوماسیون">
+
+    <title>Fartoos | فرتوس</title>
+
+    <link rel="icon"
+          type="image/png"
+          href="assets/icon/fartoos.png">
+
+    <link rel="stylesheet"
+          href="css/style.css">
 </head>
+
 <body>
 
-    <h1>Hello World!</h1>
-    <p>Fartoos website is working.</p>
-    <h2>this is a tesssssssssssssssssssssssssssssssssssssssssst<h2>
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="header-container">
+
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <img src="assets/icon/fartoos.png"
+                     alt="Fartoos Logo">
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="navbar">
+
+                <a href="index.html">
+                    خانه
+                </a>
+
+                <a href="pages/bariers.html">
+                    راهبندها
+                </a>
+
+                <a href="#">
+                    درب برقی
+                </a>
+
+                <a href="#">
+                    نرم‌افزار
+                </a>
+
+            </nav>
+
+            <!-- Language Switch -->
+            <div class="language-switch">
+
+                <button id="fa-btn">
+                    فارسی
+                </button>
+
+                <span>|</span>
+
+                <button id="en-btn">
+                    English
+                </button>
+
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button"
+                    id="mobile-menu-button"
+                    aria-label="باز کردن منو">
+
+                ☰
+
+            </button>
+
+        </div>
+
+        <!-- Mobile Navigation -->
+        <nav class="mobile-navbar"
+             id="mobile-navbar">
+
+            <a href="index.html">
+                خانه
+            </a>
+
+            <a href="pages/bariers.html">
+                راهبندها
+            </a>
+
+            <a href="#">
+                درب برقی
+            </a>
+
+            <a href="#">
+                نرم‌افزار
+            </a>
+
+            <div class="mobile-language-switch">
+
+                <button id="mobile-fa-btn">
+                    فارسی
+                </button>
+
+                <button id="mobile-en-btn">
+                    English
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="hero-label">
+                    FARTOOS
+                </p>
+
+                <h1>
+                    راهکارهای هوشمند
+                    <br>
+                    کنترل تردد و اتوماسیون
+                </h1>
+
+                <p class="hero-description">
+                    ارائه راهکارهای نوین در زمینه کنترل تردد،
+                    راهبند، درب‌های اتوماتیک و نرم‌افزارهای هوشمند.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#products"
+                       class="btn btn-primary">
+
+                        مشاهده محصولات
+
+                    </a>
+
+                    <a href="#about"
+                       class="btn btn-secondary">
+
+                        درباره ما
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about"
+                 id="about">
+
+            <div class="section-container">
+
+                <div class="section-text">
+
+                    <p class="section-label">
+                        درباره فرتوس
+                    </p>
+
+                    <h2>
+                        فناوری برای کنترل هوشمند
+                    </h2>
+
+                    <p>
+                        شرکت فرتوس با تمرکز بر توسعه راهکارهای
+                        هوشمند در زمینه کنترل تردد، اتوماسیون
+                        و نرم‌افزار فعالیت می‌کند.
+                    </p>
+
+                    <p>
+                        هدف ما ارائه راهکارهایی قابل اعتماد،
+                        مدرن و متناسب با نیازهای پروژه‌های مختلف است.
+                    </p>
+
+                </div>
+
+                <div class="section-image">
+
+                    <img src="assets/icon/fartoos.png"
+                         alt="Fartoos">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PRODUCTS ================= -->
+
+        <section class="products"
+                 id="products">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        محصولات و راهکارها
+                    </p>
+
+                    <h2>
+                        راهکارهای فرتوس
+                    </h2>
+
+                </div>
+
+
+                <div class="products-grid">
+
+                    <!-- Barrier -->
+                    <a href="pages/bariers.html"
+                       class="product-card">
+
+                        <div class="product-icon">
+                            🚧
+                        </div>
+
+                        <h3>
+                            راهبندها
+                        </h3>
+
+                        <p>
+                            سیستم‌های کنترل تردد و راهبند
+                            برای پروژه‌های مختلف.
+                        </p>
+
+                        <span>
+                            مشاهده بیشتر ←
+                        </span>
+
+                    </a>
+
+
+                    <!-- Electric Door -->
+                    <a href="#"
+                       class="product-card">
+
+                        <div class="product-icon">
+                            🚪
+                        </div>
+
+                        <h3>
+                            درب برقی
+                        </h3>
+
+                        <p>
+                            راهکارهای هوشمند برای کنترل
+                            و اتوماسیون درب‌ها.
+                        </p>
+
+                        <span>
+                            به‌زودی ←
+                        </span>
+
+                    </a>
+
+
+                    <!-- Software -->
+                    <a href="#"
+                       class="product-card">
+
+                        <div class="product-icon">
+                            💻
+                        </div>
+
+                        <h3>
+                            نرم‌افزار
+                        </h3>
+
+                        <p>
+                            نرم‌افزارها و کتابخانه‌های توسعه‌یافته
+                            توسط تیم فرتوس.
+                        </p>
+
+                        <span>
+                            به‌زودی ←
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+
+                <img src="assets/icon/fartoos.png"
+                     alt="Fartoos">
+
+                <p>
+                    FARTOOS
+                </p>
+
+            </div>
+
+            <p class="copyright">
+                © 2026 Fartoos. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="js/main.js"></script>
+    <script src="js/language.js"></script>
 
 </body>
+
 </html>
+```

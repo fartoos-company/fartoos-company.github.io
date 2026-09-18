@@ -105,7 +105,7 @@ const translations = {
 
     en: {
 
-        brandPersian: "FARTOOS",
+        brandPersian: "فرتوس",
         brandCaption: "Design & Manufacturing of Access Control Equipment",
 
         navAbout: "About Us",

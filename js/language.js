@@ -17,7 +17,7 @@ const translations = {
         navDoor: "درب برقی",
         navContact: "تماس با ما",
         navTheme: "روز / شب",
-        navLanguage: "انگلیسی / فارسی",
+        navLanguage: "English / فارسی",
 
         aboutEyebrow: "FARTOOS COMPANY",
         aboutTitle: "درباره ما",
@@ -115,7 +115,7 @@ const translations = {
         navDoor: "Electric Door",
         navContact: "Contact Us",
         navTheme: "Day / Night",
-        navLanguage: "English / Persian",
+        navLanguage: "English / فارسی",
 
         aboutEyebrow: "FARTOOS COMPANY",
         aboutTitle: "About Us",

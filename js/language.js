@@ -1,15 +1,11 @@
-/* =========================================================
+/*
    FARTOOS LANGUAGE SYSTEM
    Persian <-> English
-========================================================= */
-
+*/
 const translations = {
-
     fa: {
-
         brandPersian: "فرتوس",
         brandCaption: "طراحی و تولید تجهیزات کنترل تردد",
-
         navAbout: "درباره ما",
         navLocations: "مکان های نصب شده",
         navBarrier: "راهبند",
@@ -18,43 +14,20 @@ const translations = {
         navContact: "تماس با ما",
         navTheme: "روز / شب",
         navLanguage: "English / فارسی",
-
         aboutEyebrow: "FARTOOS COMPANY",
         aboutTitle: "درباره ما",
-
-        aboutText1:
-            "شرکت فرتوس اراک از سال 1378 تا کنون در زمینه طراحی و ساخت و تولید راهبند در کلیه استان های ایران فعال بوده است و اکنون در حال طراحی جک درب برقی لولایی می باشد.",
-
-        aboutText2:
-            "کیفیت بالای محصولات و قیمت مناسب و رضایت مشتری همواره هدف این شرکت بوده است.",
-
-        aboutText3:
-            "کلیه محصولات این شرکت دارای 18 ماه گارانتی و 10 سال خدمات پس از فروش می باشد.",
-
+        aboutText1: "شرکت فرتوس اراک از سال 1378 تا کنون در زمینه طراحی و ساخت و تولید راهبند در کلیه استان های ایران فعال بوده است و اکنون در حال طراحی جک درب برقی لولایی می باشد.",
+        aboutText2: "کیفیت بالای محصولات و قیمت مناسب و رضایت مشتری همواره هدف این شرکت بوده است.",
+        aboutText3: "کلیه محصولات این شرکت دارای 18 ماه گارانتی و 10 سال خدمات پس از فروش می باشد.",
         locationsEyebrow: "INSTALLATION MAP",
         locationsTitle: "مکان های نصب شده",
-
-        mapDescription:
-            "محل پروژه های نصب شده فرتوس در سراسر ایران",
-
-        mapComing:
-            "اطلاعات نقاط نصب به زودی",
-
-        mapReserved:
-            "فضای اختصاصی نقشه ایران",
-
-        mapReservedSmall:
-            "نقاط نصب بعداً به نقشه اضافه خواهند شد",
-
-        barrierEyebrow:
-            "TECHNICAL SPECIFICATIONS",
-
-        barrierTitle:
-            "راهبند فرتوس",
-
-        barrierSubtitle:
-            "سیستم کنترل تردد",
-
+        mapDescription: "محل پروژه های نصب شده فرتوس در سراسر ایران",
+        mapComing: "اطلاعات نقاط نصب به زودی",
+        mapReserved: "فضای اختصاصی نقشه ایران",
+        mapReservedSmall: "نقاط نصب بعداً به نقشه اضافه خواهند شد",
+        barrierEyebrow: "TECHNICAL SPECIFICATIONS",
+        barrierTitle: "راهبند فرتوس",
+        barrierSubtitle: "سیستم کنترل تردد",
         spec1: "رنگ الکترواستاتیک",
         spec2: "دارای مدار محافظ موتور",
         spec3: "گیربکس سهند",
@@ -73,41 +46,31 @@ const translations = {
         spec16: "قابلیت نصب چشم مادون قرمز جهت ایمنی در تردد",
         spec17: "حداکثر زمان باز یا بسته شدن بازو 6 ثانیه",
         spec18: "تنظیم دقیق حد بالا و پایین بدون نیاز به پایه نگهدارنده در انتهای بازو",
-
         galleryEyebrow: "PRODUCT GALLERY",
         galleryTitle: "عکس محصولات",
         imagePlaceholder: "تصویر محصول",
-
         doorEyebrow: "NEXT PRODUCT",
         doorTitle: "درب برقی",
-        doorDescription:
-            "این محصول در حال طراحی و توسعه است.",
-
+        doorDescription: "این محصول در حال طراحی و توسعه است.",
         contactEyebrow: "GET IN TOUCH",
         contactTitle: "تماس با ما",
-
-        contactBrandText:
-            "ارتباط با فرتوس",
-
+        contactBrandText: "ارتباط با فرتوس",
         addressLabel: "آدرس",
-        address:
-            "اراک - کیلومتر 3 جاده تهران - انتهای جاده احمد آباد",
-
+        address: "اراک - کیلومتر 3 جاده تهران - انتهای جاده احمد آباد",
         postalLabel: "کدپستی",
         managementLabel: "مدیریت",
         salesLabel: "کارشناس فروش",
         emailLabel: "ایمیل",
-
-        footerText:
-            "فرتوس اراک | طراحی و تولید تجهیزات کنترل تردد"
+        footerText: "فرتوس اراک | طراحی و تولید تجهیزات کنترل تردد"
     },
 
 
-    en: {
 
+
+   
+    en: {
         brandPersian: "فرتوس",
         brandCaption: "Design & Manufacturing of Access Control Equipment",
-
         navAbout: "About Us",
         navLocations: "Installations",
         navBarrier: "Barrier",
@@ -116,43 +79,20 @@ const translations = {
         navContact: "Contact Us",
         navTheme: "Day / Night",
         navLanguage: "English / فارسی",
-
         aboutEyebrow: "FARTOOS COMPANY",
         aboutTitle: "About Us",
-
-        aboutText1:
-            "Fartoos Arak Company has been active since 1999 in the design, construction and manufacturing of barrier gates across all provinces of Iran, and is currently developing a swing electric door actuator.",
-
-        aboutText2:
-            "High product quality, reasonable pricing, and customer satisfaction have always been the main goals of the company.",
-
-        aboutText3:
-            "All products of this company are covered by an 18-month warranty and 10 years of after-sales service.",
-
+        aboutText1: "Fartoos Arak Company has been active since 1999 in the design, construction and manufacturing of barrier gates across all provinces of Iran, and is currently developing a swing electric door actuator.",
+        aboutText2: "High product quality, reasonable pricing, and customer satisfaction have always been the main goals of the company.",
+        aboutText3: "All products of this company are covered by an 18-month warranty and 10 years of after-sales service.",
         locationsEyebrow: "INSTALLATION MAP",
         locationsTitle: "Installation Locations",
-
-        mapDescription:
-            "Fartoos installation projects throughout Iran",
-
-        mapComing:
-            "Installation data coming soon",
-
-        mapReserved:
-            "Dedicated Iran Map Area",
-
-        mapReservedSmall:
-            "Installation points will be added later",
-
-        barrierEyebrow:
-            "TECHNICAL SPECIFICATIONS",
-
-        barrierTitle:
-            "Fartoos Barrier Gate",
-
-        barrierSubtitle:
-            "Access Control System",
-
+        mapDescription: "Fartoos installation projects throughout Iran",
+        mapComing: "Installation data coming soon",
+        mapReserved: "Dedicated Iran Map Area",
+        mapReservedSmall: "Installation points will be added later",
+        barrierEyebrow: "TECHNICAL SPECIFICATIONS",
+        barrierTitle: "Fartoos Barrier Gate",
+        barrierSubtitle: "Access Control System",
         spec1: "Electrostatic coating",
         spec2: "Motor protection circuit",
         spec3: "Sahand gearbox",
@@ -171,53 +111,37 @@ const translations = {
         spec16: "Optional infrared photocell for traffic safety",
         spec17: "Maximum opening or closing time: 6 seconds",
         spec18: "Precise upper and lower limit adjustment without requiring an end support stand",
-
         galleryEyebrow: "PRODUCT GALLERY",
         galleryTitle: "Product Gallery",
         imagePlaceholder: "Product Image",
-
         doorEyebrow: "NEXT PRODUCT",
         doorTitle: "Electric Door",
-        doorDescription:
-            "This product is currently under design and development.",
-
+        doorDescription: "This product is currently under design and development.",
         contactEyebrow: "GET IN TOUCH",
         contactTitle: "Contact Us",
-
-        contactBrandText:
-            "Connect with Fartoos",
-
+        contactBrandText: "Connect with Fartoos",
         addressLabel: "Address",
-        address:
-            "Arak - 3 km Tehran Road - End of Ahmadabad Road",
-
+        address: "Arak - 3 km Tehran Road - End of Ahmadabad Road",
         postalLabel: "Postal Code",
         managementLabel: "Management",
         salesLabel: "Sales Expert",
         emailLabel: "Email",
-
-        footerText:
-            "Fartoos Arak | Access Control Equipment Design & Manufacturing"
+        footerText: "Fartoos Arak | Access Control Equipment Design & Manufacturing"
     }
 };
 
 
-/* =========================================================
-   LANGUAGE APPLICATION
-========================================================= */
 
+
+
+/*  LANGUAGE APPLICATION  */
 function applyLanguage(language) {
-
     const selectedLanguage =
         translations[language] ? language : "fa";
-
     const elements =
         document.querySelectorAll("[data-i18n]");
-
     elements.forEach(element => {
-
         const key = element.getAttribute("data-i18n");
-
         if (
             translations[selectedLanguage] &&
             translations[selectedLanguage][key] !== undefined
@@ -226,17 +150,13 @@ function applyLanguage(language) {
                 translations[selectedLanguage][key];
         }
     });
-
     document.documentElement.lang = selectedLanguage;
-
     document.documentElement.dir =
         selectedLanguage === "fa"
             ? "rtl"
             : "ltr";
-
     document.body.dataset.language =
         selectedLanguage;
-
     localStorage.setItem(
         "fartoos-language",
         selectedLanguage
@@ -244,43 +164,36 @@ function applyLanguage(language) {
 }
 
 
-/* =========================================================
-   LANGUAGE TOGGLE
-========================================================= */
 
+
+
+/*  LANGUAGE TOGGLE  */
 function toggleLanguage() {
-
     const current =
         localStorage.getItem("fartoos-language") || "fa";
-
     const next =
         current === "fa"
             ? "en"
             : "fa";
-
     applyLanguage(next);
 }
 
 
-/* =========================================================
-   INITIAL LANGUAGE
-========================================================= */
 
+
+
+/*  INITIAL LANGUAGE  */
 document.addEventListener("DOMContentLoaded", () => {
-
     const savedLanguage =
         localStorage.getItem("fartoos-language") || "fa";
-
     applyLanguage(savedLanguage);
-
     const languageButton =
         document.getElementById("languageToggle");
-
     if (languageButton) {
         languageButton.addEventListener(
             "click",
             toggleLanguage
         );
     }
-
 });
+

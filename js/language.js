@@ -1,7 +1,4 @@
-/*
-   FARTOOS LANGUAGE SYSTEM
-   Persian <-> English
-*/
+/* FARTOOS LANGUAGE SYSTEM    Persian <-> English */
 const translations = {
     fa: {
         brandPersian: "فرتوس",
@@ -63,11 +60,6 @@ const translations = {
         emailLabel: "ایمیل",
         footerText: "فرتوس اراک | طراحی و تولید تجهیزات کنترل تردد"
     },
-
-
-
-
-   
     en: {
         brandPersian: "فرتوس",
         brandCaption: "Design & Manufacturing of Access Control Equipment",
@@ -129,71 +121,29 @@ const translations = {
         footerText: "Fartoos Arak | Access Control Equipment Design & Manufacturing"
     }
 };
-
-
-
-
-
 /*  LANGUAGE APPLICATION  */
 function applyLanguage(language) {
-    const selectedLanguage =
-        translations[language] ? language : "fa";
-    const elements =
-        document.querySelectorAll("[data-i18n]");
+    const selectedLanguage = translations[language] ? language : "fa";
+    const elements = document.querySelectorAll("[data-i18n]");
     elements.forEach(element => {
         const key = element.getAttribute("data-i18n");
-        if (
-            translations[selectedLanguage] &&
-            translations[selectedLanguage][key] !== undefined
-        ) {
-            element.textContent =
-                translations[selectedLanguage][key];
-        }
+        if (translations[selectedLanguage] && translations[selectedLanguage][key] !== undefined) { element.textContent = translations[selectedLanguage][key];}
     });
     document.documentElement.lang = selectedLanguage;
-    document.documentElement.dir =
-        selectedLanguage === "fa"
-            ? "rtl"
-            : "ltr";
-    document.body.dataset.language =
-        selectedLanguage;
-    localStorage.setItem(
-        "fartoos-language",
-        selectedLanguage
-    );
+    document.documentElement.dir = selectedLanguage === "fa" ? "rtl" : "ltr";
+    document.body.dataset.language = selectedLanguage;
+    localStorage.setItem("fartoos-language",selectedLanguage);
 }
-
-
-
-
-
 /*  LANGUAGE TOGGLE  */
 function toggleLanguage() {
-    const current =
-        localStorage.getItem("fartoos-language") || "fa";
-    const next =
-        current === "fa"
-            ? "en"
-            : "fa";
+    const current = localStorage.getItem("fartoos-language") || "fa";
+    const next = current === "fa" ? "en" : "fa";
     applyLanguage(next);
 }
-
-
-
-
-
 /*  INITIAL LANGUAGE  */
 document.addEventListener("DOMContentLoaded", () => {
-    const savedLanguage =
-        localStorage.getItem("fartoos-language") || "fa";
+    const savedLanguage = localStorage.getItem("fartoos-language") || "fa";
     applyLanguage(savedLanguage);
-    const languageButton =
-        document.getElementById("languageToggle");
-    if (languageButton) {
-        languageButton.addEventListener(
-            "click",
-            toggleLanguage
-        );
-    }
+    const languageButton = document.getElementById("languageToggle");
+    if (languageButton) {languageButton.addEventListener("click", toggleLanguage);}
 });
-

@@ -1,8 +1,5 @@
 /*  FARTOOS MAIN JAVASCRIPT  */
 document.addEventListener("DOMContentLoaded", () => {
-
-
-    /*  PAGE LOADER  */
     const loader =
         document.getElementById("pageLoader");
     window.addEventListener("load", () => {
@@ -12,18 +9,12 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }, 450);
     });
-
-
-    /*  CURRENT YEAR  */
     const currentYear =
         document.getElementById("currentYear");
     if (currentYear) {
         currentYear.textContent =
             new Date().getFullYear();
     }
-
-   
-    /*  THEME  */
     const themeToggle =
         document.getElementById("themeToggle");
     const themeIcon =
@@ -83,9 +74,6 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         );
     }
-
-   
-    /*  SMOOTH SCROLL  */
     const navLinks =
         document.querySelectorAll(
             '.nav-square[href^="#"]'
@@ -112,9 +100,6 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         );
     });
-
-
-    /*  ACTIVE NAVIGATION  */
     const sections =
         document.querySelectorAll(
             "main section[id]"
@@ -155,9 +140,6 @@ document.addEventListener("DOMContentLoaded", () => {
     sections.forEach(section => {
         observer.observe(section);
     });
-
-
-    /*  SCROLL REVEAL  */
     const revealElements =
         document.querySelectorAll(
             ".section-heading, .about-card, .map-wrapper, .barrier-card, .product-image, .coming-soon-card, .contact-card"
@@ -188,12 +170,6 @@ document.addEventListener("DOMContentLoaded", () => {
     revealElements.forEach(element => {
         revealObserver.observe(element);
     });
-
-
-    /*
-       GALLERY IMAGE PREPARATION
-       Later you can replace the placeholders with images.
-    */
     const imageSlots =
         document.querySelectorAll(
             ".product-image"
@@ -202,9 +178,6 @@ document.addEventListener("DOMContentLoaded", () => {
         slot.dataset.imageNumber =
             String(index + 1).padStart(2, "0");
     });
-
-
-    /*  KEYBOARD ACCESSIBILITY  */
     document.addEventListener(
         "keydown",
         event => {
@@ -216,4 +189,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     );
 });
+
+
+
 

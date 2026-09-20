@@ -1,4 +1,3 @@
-/* FARTOOS LANGUAGE SYSTEM    Persian <-> English */
 const translations = {
     fa: {
         brandPersian: "فرتوس",
@@ -121,7 +120,6 @@ const translations = {
         footerText: "Fartoos Arak | Access Control Equipment Design & Manufacturing"
     }
 };
-/*  LANGUAGE APPLICATION  */
 function applyLanguage(language) {
     const selectedLanguage = translations[language] ? language : "fa";
     const elements = document.querySelectorAll("[data-i18n]");
@@ -134,13 +132,11 @@ function applyLanguage(language) {
     document.body.dataset.language = selectedLanguage;
     localStorage.setItem("fartoos-language",selectedLanguage);
 }
-/*  LANGUAGE TOGGLE  */
 function toggleLanguage() {
     const current = localStorage.getItem("fartoos-language") || "fa";
     const next = current === "fa" ? "en" : "fa";
     applyLanguage(next);
 }
-/*  INITIAL LANGUAGE  */
 document.addEventListener("DOMContentLoaded", () => {
     const savedLanguage = localStorage.getItem("fartoos-language") || "fa";
     applyLanguage(savedLanguage);
